@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.button-login {
+  padding-top: 20px;
+  button {
+    width: 100%;
+  }
+  p {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+.button-custom {
+  padding: 0;
+  margin-right: 10px;
+}
+.header-menu {
+  flex-direction: row;
+  justify-content: space-around;
+  .header-welcome {
+    color: #fff;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+}
+.form-title {
+  text-align: center;
+}
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+.header-border {
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  border: black solid 2px;
+  
+  .heading {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -17px
+  }
+ 
+ .heading > span {
+    background-color: white;
+    box-shadow: white 5px 0px 0px,
+                white -5px 0px 0px;
+  }
+}
+.video-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style: italic;
+  font-size: 14px;
+}
+.video-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: red;
+}
+.video-auth {
+  font-size: 14px;
+  font-style: italic;
+}
+.video-abc {
+  height: 200px;
+}
