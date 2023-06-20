@@ -77,17 +77,12 @@ label {
   }
 }
 .button-custom {
-  padding: 0;
+  padding: 5px;
   margin-right: 10px;
 }
-.header-menu {
-  flex-direction: row;
-  justify-content: space-around;
-  .header-welcome {
-    color: #fff;
-    padding-right: 10px;
-    padding-top: 10px;
-  }
+.header-welcome {
+  color: #fff;
+  padding-top: 10px;
 }
 .form-title {
   text-align: center;
@@ -133,4 +128,19 @@ label {
 }
 .video-abc {
   height: 200px;
+}
+.header-container {
+  color: #fff;
+  background-color: #282c34;
+  align-items: center;
+  padding: 20px;
+  .header-brand {
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+
+  }
+}
+.header-right {
+  text-align: end;
 }
